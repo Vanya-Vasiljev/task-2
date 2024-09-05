@@ -23,6 +23,7 @@ body{
     position: absolute;
     top: 0;
     left: 0;
+    box-shadow: 5px 0 50px 20px rgb(206, 202, 222);
     
 }
 .container{
