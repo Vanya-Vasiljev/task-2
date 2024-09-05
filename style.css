@@ -50,6 +50,13 @@ body{
     position:absolute;
     right:0;
 }
+.header__nav a{
+    transition-property: opacity;
+    transition-duration: 2000ms;
+}
+.header__nav a:hover{
+    opacity: 0.5;
+}
 .main{
     margin-bottom: 268px;
 }
@@ -67,12 +74,12 @@ body{
 .main__nav a{
     color: rgba(27, 28, 33, 1);
     text-decoration: none;
-    transition-property: color;
+    transition-property: opacity;
     transition-duration: 200ms;
 
 }
 .main__nav a:hover{
-    color: rgb(212, 10, 111);
+    opacity: 0.4;
 }
 .main__nav .active a{
     color: rgba(126, 126, 130, 1);
@@ -88,6 +95,9 @@ body{
     background-repeat: no-repeat;
     background-position: 0 0;
 }
+.footer{
+    margin-bottom: 32px;
+}
 .footer__nav{
     padding:0;
     margin:0;
@@ -98,6 +108,13 @@ body{
 .footer__nav li{
     margin-right: 16px;
 }
+.footer__nav a{
+    transition-property: opacity;
+    transition-duration: 200ms;
+}
+.footer__nav a:hover{
+    opacity: 0.4;
+}
 .mail{
     margin-top: 16px;
     margin-bottom: 12px;
@@ -105,11 +122,11 @@ body{
 .mail a{
     text-decoration: none;
     color: rgba(27, 28, 33, 1);
-    transition-property: color;
+    transition-property: opacity;
     transition-duration: 200ms;
 }
 .mail a:hover{
-    color: rgb(212, 10, 111);
+    opacity: 0.4;
 }
 .phone{
     margin-bottom: 40px;
@@ -119,23 +136,21 @@ body{
     color: rgba(27, 28, 33, 1);
     font-weight: bold; 
     font-size: 20px;
-    transition-property: color;
+    transition-property: opacity;
     transition-duration: 200ms;
 }
 .phone a:hover{
-    color: rgb(212, 10, 111);
+    opacity: 0.4;
 }
-.lang{
-    margin-bottom: 32px;
-}
+
 .lang a{
     text-decoration: none;
     color: rgba(27, 28, 33, 1);
-    transition-property: color;
+    transition-property: opacity;
     transition-duration: 200ms;
 }
 .lang a:hover{
-    color: rgb(212, 10, 111);
+    opacity: 0.4;
 }
 .lang a:first-child{
     color:rgba(126, 126, 130, 1);
