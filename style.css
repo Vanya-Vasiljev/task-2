@@ -1,0 +1,145 @@
+
+@font-face {
+    font-family: 'TT-Lakes';
+    src: url('/fonts/TTLakes-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT-Lakes';
+    src: url('/fonts/TTLakes-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'TT-Lakes', 'Arial', sans-serif;
+}
+
+.content{
+    width: 320px;
+    background-color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+.container{
+    margin: 0 auto;
+    width: 272px;
+}
+.header{
+    margin-top: 19px;
+    margin-bottom: 47px;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position:relative;
+}
+.header__nav li:first-child{
+    margin-right: 17px;
+}
+.header__nav li:last-child{
+    position:absolute;
+    right:0;
+}
+.main{
+    margin-bottom: 268px;
+}
+.main__nav{
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+}
+
+.main__nav li{
+    margin-bottom: 32px;
+    line-height: 24px;
+}
+
+.main__nav a{
+    color: rgba(27, 28, 33, 1);
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 200ms;
+
+}
+.main__nav a:hover{
+    color: rgb(212, 10, 111);
+}
+.main__nav .active a{
+    color: rgba(126, 126, 130, 1);
+}
+.main__nav .active:before{
+    width: 4px;
+    height: 32px;
+    position: absolute;
+    content: "";
+    top:120px;
+    left: 0;
+    background-image: url("images/border.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+.footer__nav{
+    padding:0;
+    margin:0;
+    list-style:none;
+    display: flex;
+    justify-content: flex-start;
+}
+.footer__nav li{
+    margin-right: 16px;
+}
+.mail{
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+.mail a{
+    text-decoration: none;
+    color: rgba(27, 28, 33, 1);
+    transition-property: color;
+    transition-duration: 200ms;
+}
+.mail a:hover{
+    color: rgb(212, 10, 111);
+}
+.phone{
+    margin-bottom: 40px;
+}
+.phone a{
+    text-decoration: none;
+    color: rgba(27, 28, 33, 1);
+    font-weight: bold; 
+    font-size: 20px;
+    transition-property: color;
+    transition-duration: 200ms;
+}
+.phone a:hover{
+    color: rgb(212, 10, 111);
+}
+.lang{
+    margin-bottom: 32px;
+}
+.lang a{
+    text-decoration: none;
+    color: rgba(27, 28, 33, 1);
+    transition-property: color;
+    transition-duration: 200ms;
+}
+.lang a:hover{
+    color: rgb(212, 10, 111);
+}
+.lang a:first-child{
+    color:rgba(126, 126, 130, 1);
+}
+
+
+
